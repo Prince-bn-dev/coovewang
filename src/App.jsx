@@ -20,7 +20,7 @@ function App() {
   return (
     <>
        {loading ? (
-          <div style={{display:"flex" , flexDirection:"column"}}>
+          <div style={{display:"flex" , flexDirection:"column" , justifyContent:"center", alignItems:"center", height:"100vh"}}>
            <CameraLoader />
          <h1>Bienvenue sur mon portfolio !</h1>
           </div>
