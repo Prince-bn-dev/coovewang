@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import CircularText from './CircularText';
 
 const About = () => (
   <section className="about" id="about">
@@ -10,8 +11,14 @@ const About = () => (
       viewport={{ once: true }}
       transition={{ duration: 0.7 }}
     >
+     <CircularText
+        text="COVEE*WANG*"
+        onHover="speedUp"
+        spinDuration={20}
+        className="custom-class"
+      />
       <img src="/images/personne.jpg" alt="Covee Wang" />
-      <div>
+      <div className="about-text">
         <h2>A Little About Me</h2>
         <h5>
         Hello! I'm Covee Wang, a people & events photographer from China whose creative vision has been shaped by life in London and Paris.

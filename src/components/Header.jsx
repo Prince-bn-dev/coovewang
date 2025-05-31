@@ -29,13 +29,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <a href="#hero">
-            <motion.img
-              src="/images/logo.png"
-              alt="Logo"
-              whileHover={{ scale: 1.1 }}
-              transition={{ type: 'spring', stiffness: 300 }}
-              className="logo-img"
-            />
+            <span>Covee</span>
           </a>
         </div>
         <nav className="nav">

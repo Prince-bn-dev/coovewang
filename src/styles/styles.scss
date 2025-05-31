@@ -116,17 +116,23 @@
   .about-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 3rem;
     max-width: 900px;
     margin: 0 auto;
+  position: relative;
+
     img {
-      width: 180px;
-      height: 180px;
+      position: absolute;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
       border-radius: 50%;
       box-shadow: $shadow;
+      left: -45px;
     }
-    div {
+    .about-text {
+      padding-left: 4rem;
       h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
